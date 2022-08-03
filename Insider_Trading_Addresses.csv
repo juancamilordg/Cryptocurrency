@@ -1,0 +1,118 @@
+from_address,tag,tag
+0x024bcbcaad82e67f721799e259ca60bc7d363419,Ygov.finance: YFI Token,7
+0x024bcbcaad82e67f721799e259ca60bc7d363419,Curve.fi: CRV Token,5
+0x024bcbcaad82e67f721799e259ca60bc7d363419,ENS: ENS Token,2
+0x024bcbcaad82e67f721799e259ca60bc7d363419,Aave: AAVE Token,1
+0x024bcbcaad82e67f721799e259ca60bc7d363419,Compound: Comptroller,1
+0x024bcbcaad82e67f721799e259ca60bc7d363419,SushiSwap: SUSHI Token,1
+0x024bcbcaad82e67f721799e259ca60bc7d363419,Synthetix: Proxy SNX Token,1
+0x0b30483057d6a7798378edba707d625116ed7640,Ygov.finance: YFI Token,4
+0x0b30483057d6a7798378edba707d625116ed7640,SushiSwap: SUSHI Token,1
+0x0c5a2c72c009252f0e7312f5a1ab87de02be6fbe,Compound: Comptroller,4
+0x0c5a2c72c009252f0e7312f5a1ab87de02be6fbe,Ygov.finance: YFI Token,4
+0x0c5a2c72c009252f0e7312f5a1ab87de02be6fbe,Curve.fi: CRV Token,3
+0x0c5a2c72c009252f0e7312f5a1ab87de02be6fbe,Aave: AAVE Token,1
+0x0c5a2c72c009252f0e7312f5a1ab87de02be6fbe,SushiSwap: SUSHI Token,1
+0x0c5a2c72c009252f0e7312f5a1ab87de02be6fbe,UMA: UMA Token,1
+0x10b26700b0a2d3f5ef12fa250aba818ee3b43bf4,Compound: Comptroller,3
+0x10b26700b0a2d3f5ef12fa250aba818ee3b43bf4,Ygov.finance: YFI Token,2
+0x10b26700b0a2d3f5ef12fa250aba818ee3b43bf4,Curve.fi: CRV Token,1
+0x10b26700b0a2d3f5ef12fa250aba818ee3b43bf4,Loopring: LRC Token,1
+0x187e3534f461d7c59a7d6899a983a5305b48f93f,Balancer: BAL Token,3
+0x187e3534f461d7c59a7d6899a983a5305b48f93f,Decentraland: MANA Token,3
+0x187e3534f461d7c59a7d6899a983a5305b48f93f,Abracadabra.money: SPELL Token,2
+0x187e3534f461d7c59a7d6899a983a5305b48f93f,Convex Finance: CVX Token,1
+0x187e3534f461d7c59a7d6899a983a5305b48f93f,Ygov.finance: YFI Token,1
+0x22fa8cc33a42320385cbd3690ed60a021891cb32,Compound: Comptroller,8
+0x22fa8cc33a42320385cbd3690ed60a021891cb32,Ygov.finance: YFI Token,5
+0x22fa8cc33a42320385cbd3690ed60a021891cb32,Curve.fi: CRV Token,1
+0x22fa8cc33a42320385cbd3690ed60a021891cb32,SushiSwap: SUSHI Token,1
+0x31a47094c6325d357c7331c621d6768ba041916e,Curve.fi: CRV Token,3
+0x31a47094c6325d357c7331c621d6768ba041916e,Aave: AAVE Token,1
+0x31a47094c6325d357c7331c621d6768ba041916e,SushiSwap: SUSHI Token,1
+0x31a47094c6325d357c7331c621d6768ba041916e,UMA: UMA Token,1
+0x35e3564c86bc0b5548a3be3a9a1e71eb1455fad2,Compound: Comptroller,9
+0x35e3564c86bc0b5548a3be3a9a1e71eb1455fad2,Curve.fi: CRV Token,5
+0x35e3564c86bc0b5548a3be3a9a1e71eb1455fad2,Ygov.finance: YFI Token,2
+0x49a2dcc237a65cc1f412ed47e0594602f6141936,Curve.fi: CRV Token,3
+0x49a2dcc237a65cc1f412ed47e0594602f6141936,Ygov.finance: YFI Token,3
+0x49a2dcc237a65cc1f412ed47e0594602f6141936,Compound: Comptroller,2
+0x49a2dcc237a65cc1f412ed47e0594602f6141936,SushiSwap: SUSHI Token,1
+0x4ef2ab73ef2214ebeba6f087a8dcf89731504301,Ygov.finance: YFI Token,2
+0x4ef2ab73ef2214ebeba6f087a8dcf89731504301,Curve.fi: CRV Token,1
+0x4f76ff660dc5e37b098de28e6ec32978e4b5beb6,Ygov.finance: YFI Token,4
+0x4f76ff660dc5e37b098de28e6ec32978e4b5beb6,Curve.fi: CRV Token,2
+0x4f76ff660dc5e37b098de28e6ec32978e4b5beb6,SushiSwap: SUSHI Token,1
+0x52ad87832400485de7e7dc965d8ad890f4e82699,Curve.fi: CRV Token,4
+0x52ad87832400485de7e7dc965d8ad890f4e82699,Convex Finance: CVX Token,1
+0x52ad87832400485de7e7dc965d8ad890f4e82699,SushiSwap: SUSHI Token,1
+0x57757e3d981446d585af0d9ae4d7df6d64647806,Curve.fi: CRV Token,4
+0x57757e3d981446d585af0d9ae4d7df6d64647806,Ygov.finance: YFI Token,3
+0x57757e3d981446d585af0d9ae4d7df6d64647806,ENS: ENS Token,2
+0x57ca561798413a20508b6bc997481e784f3e6e5f,Compound: Comptroller,5
+0x57ca561798413a20508b6bc997481e784f3e6e5f,Balancer: BAL Token,1
+0x6165fd87c1bc73a4c44b23934e9136fd92df5b01,Balancer: BAL Token,3
+0x6165fd87c1bc73a4c44b23934e9136fd92df5b01,Curve.fi: CRV Token,1
+0x6165fd87c1bc73a4c44b23934e9136fd92df5b01,SushiSwap: SUSHI Token,1
+0x70265950add51748aa041de8accce6747507adce,Compound: Comptroller,3
+0x70265950add51748aa041de8accce6747507adce,Balancer: BAL Token,1
+0x70265950add51748aa041de8accce6747507adce,Curve.fi: CRV Token,1
+0x70265950add51748aa041de8accce6747507adce,Ygov.finance: YFI Token,1
+0x7ac34681f6aaeb691e150c43ee494177c0e2c183,Compound: Comptroller,7
+0x7ac34681f6aaeb691e150c43ee494177c0e2c183,Ygov.finance: YFI Token,5
+0x7ac34681f6aaeb691e150c43ee494177c0e2c183,ENS: ENS Token,2
+0x7ac34681f6aaeb691e150c43ee494177c0e2c183,Curve.fi: CRV Token,1
+0x7ac34681f6aaeb691e150c43ee494177c0e2c183,SushiSwap: SUSHI Token,1
+0x7c4a909da802a74d83a381b157fe773ff3a67177,Curve.fi: CRV Token,5
+0x7c4a909da802a74d83a381b157fe773ff3a67177,Ygov.finance: YFI Token,3
+0x7c4a909da802a74d83a381b157fe773ff3a67177,SushiSwap: SUSHI Token,1
+0x8761e0dd63d14cf566acf4b730f3540f164b6b56,UMA: UMA Token,2
+0x8761e0dd63d14cf566acf4b730f3540f164b6b56,Ygov.finance: YFI Token,1
+0x894454ecc032d50e12c5a9164b79c39a237df8c6,Ygov.finance: YFI Token,2
+0x894454ecc032d50e12c5a9164b79c39a237df8c6,Curve.fi: CRV Token,1
+0x8bc110db7029197c3621bea8092ab1996d5dd7be,Curve.fi: CRV Token,2
+0x8bc110db7029197c3621bea8092ab1996d5dd7be,SushiSwap: SUSHI Token,1
+0x8bc110db7029197c3621bea8092ab1996d5dd7be,Ygov.finance: YFI Token,1
+0xa0f75491720835b36edc92d06ddc468d201e9b73,Ygov.finance: YFI Token,7
+0xa0f75491720835b36edc92d06ddc468d201e9b73,Curve.fi: CRV Token,2
+0xa0f75491720835b36edc92d06ddc468d201e9b73,Compound: Comptroller,1
+0xa0f75491720835b36edc92d06ddc468d201e9b73,SushiSwap: SUSHI Token,1
+0xa15a5fd5a3f99d52b5741476572dff8d5c96580c,Convex Finance: CVX Token,2
+0xa15a5fd5a3f99d52b5741476572dff8d5c96580c,ENS: ENS Token,1
+0xa4517a2b21f85f6a6a63601cea7fa4e34da92856,Curve.fi: CRV Token,8
+0xa4517a2b21f85f6a6a63601cea7fa4e34da92856,Ygov.finance: YFI Token,2
+0xa4517a2b21f85f6a6a63601cea7fa4e34da92856,Balancer: BAL Token,1
+0xa4517a2b21f85f6a6a63601cea7fa4e34da92856,Synthetix: Proxy SNX Token,1
+0xb7f1498898d70685851b5331f64bf26215f00415,Ygov.finance: YFI Token,3
+0xb7f1498898d70685851b5331f64bf26215f00415,Compound: Comptroller,2
+0xb7f1498898d70685851b5331f64bf26215f00415,SushiSwap: SUSHI Token,1
+0xca7c767854b1e7305de07247ab85e30543d1d9c9,Ygov.finance: YFI Token,6
+0xca7c767854b1e7305de07247ab85e30543d1d9c9,Curve.fi: CRV Token,1
+0xca7c767854b1e7305de07247ab85e30543d1d9c9,ENS: ENS Token,1
+0xcfc50541c3deaf725ce738ef87ace2ad778ba0c5,Ygov.finance: YFI Token,9
+0xcfc50541c3deaf725ce738ef87ace2ad778ba0c5,Balancer: BAL Token,1
+0xcfc50541c3deaf725ce738ef87ace2ad778ba0c5,Curve.fi: CRV Token,1
+0xcfc50541c3deaf725ce738ef87ace2ad778ba0c5,SushiSwap: SUSHI Token,1
+0xcfc50541c3deaf725ce738ef87ace2ad778ba0c5,UMA: UMA Token,1
+0xd5cdf14af5477adceabca130caaafd6feca56937,Compound: Comptroller,6
+0xd5cdf14af5477adceabca130caaafd6feca56937,Ygov.finance: YFI Token,2
+0xe2e4f2a725e42d0f0ef6291f46c430f963482001,Ygov.finance: YFI Token,3
+0xe2e4f2a725e42d0f0ef6291f46c430f963482001,Curve.fi: CRV Token,2
+0xe2e4f2a725e42d0f0ef6291f46c430f963482001,Aave: AAVE Token,1
+0xe2e4f2a725e42d0f0ef6291f46c430f963482001,UMA: UMA Token,1
+0xe6410ecbaa041a5dcde79164ca66de42a8d72bee,Ygov.finance: YFI Token,6
+0xe6410ecbaa041a5dcde79164ca66de42a8d72bee,Compound: Comptroller,4
+0xe8e8f41ed29e46f34e206d7d2a7d6f735a3ff2cb,Ygov.finance: YFI Token,4
+0xe8e8f41ed29e46f34e206d7d2a7d6f735a3ff2cb,Curve.fi: CRV Token,1
+0xecb6a3e0e99700b32bb03ba14727d99fe8e538cf,Ygov.finance: YFI Token,6
+0xecb6a3e0e99700b32bb03ba14727d99fe8e538cf,Balancer: BAL Token,2
+0xecb6a3e0e99700b32bb03ba14727d99fe8e538cf,Compound: Comptroller,2
+0xecb6a3e0e99700b32bb03ba14727d99fe8e538cf,Curve.fi: CRV Token,1
+0xecb6a3e0e99700b32bb03ba14727d99fe8e538cf,SushiSwap: SUSHI Token,1
+0xf39d30fa570db7940e5b3a3e42694665a1449e4b,Ygov.finance: YFI Token,18
+0xf39d30fa570db7940e5b3a3e42694665a1449e4b,Curve.fi: CRV Token,2
+0xfac44bfdc053a9615c6b0527f44416914628a0c4,SushiSwap: SUSHI Token,2
+0xfac44bfdc053a9615c6b0527f44416914628a0c4,Curve.fi: CRV Token,1
+0xfb626333099a91ab677bcd5e9c71bc4dbe0238a8,Ygov.finance: YFI Token,5
+0xfb626333099a91ab677bcd5e9c71bc4dbe0238a8,Curve.fi: CRV Token,2
+0xfb626333099a91ab677bcd5e9c71bc4dbe0238a8,Synthetix: Proxy SNX Token,1
