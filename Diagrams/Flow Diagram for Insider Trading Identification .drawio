@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="gb0O3ZrOsDebWWB2hDiF" name="Page-1">
-        <mxGraphModel dx="1003" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1093" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -15,6 +15,9 @@
                 </mxCell>
                 <mxCell id="16" value="Dataset with addresses without name tags" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="2" vertex="1">
                     <mxGeometry x="500" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;fontStyle=1;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" vertex="1" parent="2">
+                    <mxGeometry x="50" y="-150" width="60" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="EtherScan" style="swimlane;horizontal=0;fillColor=#d0cee2;strokeColor=#000000;startSize=30;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;sketch=0;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="112" y="140" width="1430" height="160" as="geometry"/>

@@ -1,0 +1,92 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-network@latest/styles/vis-network.css" type="text/css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis-network@latest/dist/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 80%;
+            height: 800;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+        #config {
+            float: left;
+            width: 400px;
+            height: 600px;
+        }
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<div id = "config"></div>
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"id": "0xb8001c3ec9aa1985f6c747e25c28324e4a361ec1", "label": "0xb8001c3ec9aa1985f6c747e25c28324e4a361ec1", "shape": "dot", "size": 10}, {"id": "Tether: USDT Stablecoin", "label": "Tether: USDT Stablecoin", "shape": "dot", "size": 10}, {"id": "Centre: USD Coin", "label": "Centre: USD Coin", "shape": "dot", "size": 10}, {"id": "0x292f04a44506c2fd49bac032e1ca148c35a478c8", "label": "0x292f04a44506c2fd49bac032e1ca148c35a478c8", "shape": "dot", "size": 10}, {"id": "0x7abe0ce388281d2acf297cb089caef3819b13448", "label": "0x7abe0ce388281d2acf297cb089caef3819b13448", "shape": "dot", "size": 10}, {"id": "Chainlink: LINK Token", "label": "Chainlink: LINK Token", "shape": "dot", "size": 10}, {"id": "Polygon (Matic): Matic Token", "label": "Polygon (Matic): Matic Token", "shape": "dot", "size": 10}, {"id": "SushiSwap: SUSHI Token", "label": "SushiSwap: SUSHI Token", "shape": "dot", "size": 10}, {"id": "Uniswap Protocol: UNI token", "label": "Uniswap Protocol: UNI token", "shape": "dot", "size": 10}, {"id": "Maker: Dai Stablecoin", "label": "Maker: Dai Stablecoin", "shape": "dot", "size": 10}, {"id": "Aave: AAVE Token", "label": "Aave: AAVE Token", "shape": "dot", "size": 10}, {"id": "0x6871eacd33fbcfe585009ab64f0795d7152dc5a0", "label": "0x6871eacd33fbcfe585009ab64f0795d7152dc5a0", "shape": "dot", "size": 10}, {"id": "0x6dfc34609a05bc22319fa4cce1d1e2929548c0d7", "label": "0x6dfc34609a05bc22319fa4cce1d1e2929548c0d7", "shape": "dot", "size": 10}, {"id": "0xa9bff538a906154c80a8dbccd229f3deddfa52d6", "label": "0xa9bff538a906154c80a8dbccd229f3deddfa52d6", "shape": "dot", "size": 10}, {"id": "0x0639556f03714a74a5feeaf5736a4a64ff70d206", "label": "0x0639556f03714a74a5feeaf5736a4a64ff70d206", "shape": "dot", "size": 10}, {"id": "0x87cbc48075d7aa1760ac71c41e8bc289b6a31f56", "label": "0x87cbc48075d7aa1760ac71c41e8bc289b6a31f56", "shape": "dot", "size": 10}, {"id": "0xf5f3436a05b5ced2490dae07b86eb5bbd02782aa", "label": "0xf5f3436a05b5ced2490dae07b86eb5bbd02782aa", "shape": "dot", "size": 10}, {"id": "0x4ef377462b03b650d52140c482394a6703d0d338", "label": "0x4ef377462b03b650d52140c482394a6703d0d338", "shape": "dot", "size": 10}, {"id": "SushiSwap: Router", "label": "SushiSwap: Router", "shape": "dot", "size": 10}, {"id": "0xb0cf943cf94e7b6a2657d15af41c5e06c2bfea3d", "label": "0xb0cf943cf94e7b6a2657d15af41c5e06c2bfea3d", "shape": "dot", "size": 10}, {"id": "0x9aa65464b4cfbe3dc2bdb3df412aee2b3de86687", "label": "0x9aa65464b4cfbe3dc2bdb3df412aee2b3de86687", "shape": "dot", "size": 10}, {"id": "0x937cdc9e86ba06aa5aaea221017a1d9fc7f59efd", "label": "0x937cdc9e86ba06aa5aaea221017a1d9fc7f59efd", "shape": "dot", "size": 10}, {"id": "0x26352d20e6a05e04a1ecc75d4a43ae9989272621", "label": "0x26352d20e6a05e04a1ecc75d4a43ae9989272621", "shape": "dot", "size": 10}, {"id": "0x9afa066884ce723200438b672c0b8d5769e03a6a", "label": "0x9afa066884ce723200438b672c0b8d5769e03a6a", "shape": "dot", "size": 10}, {"id": "Decentraland: MANA Token", "label": "Decentraland: MANA Token", "shape": "dot", "size": 10}, {"id": "0x8e04af7f7c76daa9ab429b1340e0327b5b835748", "label": "0x8e04af7f7c76daa9ab429b1340e0327b5b835748", "shape": "dot", "size": 10}, {"id": "0x1c727a55ea3c11b0ab7d3a361fe0f3c47ce6de5d", "label": "0x1c727a55ea3c11b0ab7d3a361fe0f3c47ce6de5d", "shape": "dot", "size": 10}, {"id": "0xc25dc289edce5227cf15d42539824509e826b54d", "label": "0xc25dc289edce5227cf15d42539824509e826b54d", "shape": "dot", "size": 10}, {"id": "0xe22619f6d538de6e0b6c1845174d45e90cbd3576", "label": "0xe22619f6d538de6e0b6c1845174d45e90cbd3576", "shape": "dot", "size": 10}, {"id": "0xb8ba36e591facee901ffd3d5d82df491551ad7ef", "label": "0xb8ba36e591facee901ffd3d5d82df491551ad7ef", "shape": "dot", "size": 10}, {"id": "0x50c85e5587d5611cf5cdfba23640bc18b3571665", "label": "0x50c85e5587d5611cf5cdfba23640bc18b3571665", "shape": "dot", "size": 10}, {"id": "0xa00e2a7652248abeb209398227dae413e9479e52", "label": "0xa00e2a7652248abeb209398227dae413e9479e52", "shape": "dot", "size": 10}, {"id": "0x2ce9f4fc52af5498b99597141e66a4273aa74983", "label": "0x2ce9f4fc52af5498b99597141e66a4273aa74983", "shape": "dot", "size": 10}, {"id": "0xf1cf296c11d3b010e6dd3d48b6c5aaed613e96f1", "label": "0xf1cf296c11d3b010e6dd3d48b6c5aaed613e96f1", "shape": "dot", "size": 10}, {"id": "0xa7fb5ca286fc3fd67525629048a4de3ba24cba2e", "label": "0xa7fb5ca286fc3fd67525629048a4de3ba24cba2e", "shape": "dot", "size": 10}, {"id": "0x8e01ef6a4d864698ff80b419fe9ec2e3c85e9e9e", "label": "0x8e01ef6a4d864698ff80b419fe9ec2e3c85e9e9e", "shape": "dot", "size": 10}, {"id": "0x42ae1d6a320e93f119d6f136912cfa12f0799b8a", "label": "0x42ae1d6a320e93f119d6f136912cfa12f0799b8a", "shape": "dot", "size": 10}, {"id": "0xbb98f2a83d78310342da3e63278ce7515d52619d", "label": "0xbb98f2a83d78310342da3e63278ce7515d52619d", "shape": "dot", "size": 10}, {"id": "0x1af6becf1bb1305139570d8d9d8aadd86a201b3b", "label": "0x1af6becf1bb1305139570d8d9d8aadd86a201b3b", "shape": "dot", "size": 10}, {"id": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621", "label": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621", "shape": "dot", "size": 10}, {"id": "0x5b990c664ae7e759763acfec76e11c289c53be77", "label": "0x5b990c664ae7e759763acfec76e11c289c53be77", "shape": "dot", "size": 10}, {"id": "0x73f9b272abda7a97cb1b237d85f9a7236edb6f16", "label": "0x73f9b272abda7a97cb1b237d85f9a7236edb6f16", "shape": "dot", "size": 10}, {"id": "0x82bdff92b259d83382c28a2d0cf3229e0d8b0b98", "label": "0x82bdff92b259d83382c28a2d0cf3229e0d8b0b98", "shape": "dot", "size": 10}, {"id": "0x03ae1a796dfe0400439211133d065bda774b9d3e", "label": "0x03ae1a796dfe0400439211133d065bda774b9d3e", "shape": "dot", "size": 10}]);
+        edges = new vis.DataSet([{"from": "0xb8001c3ec9aa1985f6c747e25c28324e4a361ec1", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 185131, "weight": 1}, {"from": "0xb8001c3ec9aa1985f6c747e25c28324e4a361ec1", "label": 1, "to": "Centre: USD Coin", "value_ether": 5783, "weight": 1}, {"from": "0x292f04a44506c2fd49bac032e1ca148c35a478c8", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 107860, "weight": 1}, {"from": "0x7abe0ce388281d2acf297cb089caef3819b13448", "label": 1, "to": "Centre: USD Coin", "value_ether": 84100, "weight": 1}, {"from": "0x7abe0ce388281d2acf297cb089caef3819b13448", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 62866, "weight": 1}, {"from": "0x7abe0ce388281d2acf297cb089caef3819b13448", "label": 1, "to": "Chainlink: LINK Token", "value_ether": 16501, "weight": 1}, {"from": "0x7abe0ce388281d2acf297cb089caef3819b13448", "label": 1, "to": "Polygon (Matic): Matic Token", "value_ether": 14417, "weight": 1}, {"from": "0x7abe0ce388281d2acf297cb089caef3819b13448", "label": 1, "to": "SushiSwap: SUSHI Token", "value_ether": 8278, "weight": 1}, {"from": "0x7abe0ce388281d2acf297cb089caef3819b13448", "label": 1, "to": "Uniswap Protocol: UNI token", "value_ether": 5612, "weight": 1}, {"from": "0x7abe0ce388281d2acf297cb089caef3819b13448", "label": 1, "to": "Maker: Dai Stablecoin", "value_ether": 5496, "weight": 1}, {"from": "0x7abe0ce388281d2acf297cb089caef3819b13448", "label": 1, "to": "Aave: AAVE Token", "value_ether": 4882, "weight": 1}, {"from": "0x6871eacd33fbcfe585009ab64f0795d7152dc5a0", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 76161, "weight": 1}, {"from": "0x6871eacd33fbcfe585009ab64f0795d7152dc5a0", "label": 1, "to": "Centre: USD Coin", "value_ether": 27072, "weight": 1}, {"from": "0x6dfc34609a05bc22319fa4cce1d1e2929548c0d7", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 69166, "weight": 1}, {"from": "0xa9bff538a906154c80a8dbccd229f3deddfa52d6", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 60683, "weight": 1}, {"from": "0xa9bff538a906154c80a8dbccd229f3deddfa52d6", "label": 1, "to": "Centre: USD Coin", "value_ether": 4793, "weight": 1}, {"from": "0x0639556f03714a74a5feeaf5736a4a64ff70d206", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 55257, "weight": 1}, {"from": "0x87cbc48075d7aa1760ac71c41e8bc289b6a31f56", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 26356, "weight": 1}, {"from": "0x87cbc48075d7aa1760ac71c41e8bc289b6a31f56", "label": 1, "to": "Centre: USD Coin", "value_ether": 10823, "weight": 1}, {"from": "0x87cbc48075d7aa1760ac71c41e8bc289b6a31f56", "label": 1, "to": "Polygon (Matic): Matic Token", "value_ether": 3538, "weight": 1}, {"from": "0xf5f3436a05b5ced2490dae07b86eb5bbd02782aa", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 18370, "weight": 1}, {"from": "0x4ef377462b03b650d52140c482394a6703d0d338", "label": 1, "to": "SushiSwap: Router", "value_ether": 17484, "weight": 1}, {"from": "0xb0cf943cf94e7b6a2657d15af41c5e06c2bfea3d", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 16584, "weight": 1}, {"from": "0x9aa65464b4cfbe3dc2bdb3df412aee2b3de86687", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 12535, "weight": 1}, {"from": "0x937cdc9e86ba06aa5aaea221017a1d9fc7f59efd", "label": 1, "to": "Centre: USD Coin", "value_ether": 11070, "weight": 1}, {"from": "0x937cdc9e86ba06aa5aaea221017a1d9fc7f59efd", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 4005, "weight": 1}, {"from": "0x26352d20e6a05e04a1ecc75d4a43ae9989272621", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 10829, "weight": 1}, {"from": "0x9afa066884ce723200438b672c0b8d5769e03a6a", "label": 1, "to": "Chainlink: LINK Token", "value_ether": 10805, "weight": 1}, {"from": "0x9afa066884ce723200438b672c0b8d5769e03a6a", "label": 1, "to": "Polygon (Matic): Matic Token", "value_ether": 4897, "weight": 1}, {"from": "0x9afa066884ce723200438b672c0b8d5769e03a6a", "label": 1, "to": "Decentraland: MANA Token", "value_ether": 3821, "weight": 1}, {"from": "0x8e04af7f7c76daa9ab429b1340e0327b5b835748", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 9872, "weight": 1}, {"from": "0x1c727a55ea3c11b0ab7d3a361fe0f3c47ce6de5d", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 9531, "weight": 1}, {"from": "0x1c727a55ea3c11b0ab7d3a361fe0f3c47ce6de5d", "label": 1, "to": "Centre: USD Coin", "value_ether": 6444, "weight": 1}, {"from": "0xc25dc289edce5227cf15d42539824509e826b54d", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 7844, "weight": 1}, {"from": "0xe22619f6d538de6e0b6c1845174d45e90cbd3576", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 7522, "weight": 1}, {"from": "0xb8ba36e591facee901ffd3d5d82df491551ad7ef", "label": 1, "to": "Centre: USD Coin", "value_ether": 7427, "weight": 1}, {"from": "0x50c85e5587d5611cf5cdfba23640bc18b3571665", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 6753, "weight": 1}, {"from": "0xa00e2a7652248abeb209398227dae413e9479e52", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 6751, "weight": 1}, {"from": "0x2ce9f4fc52af5498b99597141e66a4273aa74983", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 6238, "weight": 1}, {"from": "0xf1cf296c11d3b010e6dd3d48b6c5aaed613e96f1", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 4350, "weight": 1}, {"from": "0xa7fb5ca286fc3fd67525629048a4de3ba24cba2e", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 4235, "weight": 1}, {"from": "0x8e01ef6a4d864698ff80b419fe9ec2e3c85e9e9e", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 4195, "weight": 1}, {"from": "0x42ae1d6a320e93f119d6f136912cfa12f0799b8a", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 4167, "weight": 1}, {"from": "0xbb98f2a83d78310342da3e63278ce7515d52619d", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 4109, "weight": 1}, {"from": "0x1af6becf1bb1305139570d8d9d8aadd86a201b3b", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 3405, "weight": 1}, {"from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 3238, "weight": 1}, {"from": "0x5b990c664ae7e759763acfec76e11c289c53be77", "label": 1, "to": "Centre: USD Coin", "value_ether": 3205, "weight": 1}, {"from": "0x73f9b272abda7a97cb1b237d85f9a7236edb6f16", "label": 1, "to": "Chainlink: LINK Token", "value_ether": 3182, "weight": 1}, {"from": "0x82bdff92b259d83382c28a2d0cf3229e0d8b0b98", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 3118, "weight": 1}, {"from": "0x03ae1a796dfe0400439211133d065bda774b9d3e", "label": 1, "to": "Tether: USDT Stablecoin", "value_ether": 3055, "weight": 1}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {"nodes": {"borderWidth": null, "borderWidthSelected": null, "opacity": null, "font": {"size": 12}, "size": null}, "edges": {"arrows": {"middle": {"enabled": true, "scaleFactor": 0.5}}, "color": {"inherit": true}, "selfReferenceSize": null, "selfReference": {"angle": 0.7853981633974483}, "smooth": {"forceDirection": "none"}}, "physics": {"barnesHut": {"theta": 0.65, "centralGravity": 0, "avoidOverlap": 1}, "minVelocity": 0.75}};
+        
+        
+
+        
+        // if this network requires displaying the configure window,
+        // put it in its div
+        options.configure["container"] = document.getElementById("config");
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

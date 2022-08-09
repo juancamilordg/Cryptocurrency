@@ -1,0 +1,48 @@
+<mxfile host="65bd71144e">
+    <diagram id="rhvnkKHYfplH-EX7c3ky" name="Page-1">
+        <mxGraphModel dx="1333" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="Google Cloud- BigQuery" style="swimlane;horizontal=0;fillColor=#bac8d3;strokeColor=#000000;startSize=30;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;sketch=0;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="112" y="340" width="748" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6" source="7" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="448" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Get transactional information of selected addresses" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="6" vertex="1">
+                    <mxGeometry x="298" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="6" source="9" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Dataset with addresses without name tags" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="6" vertex="1">
+                    <mxGeometry x="148" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;fontStyle=1;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="6" vertex="1">
+                    <mxGeometry x="58" y="50" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="6" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="118" y="79.73000000000002" as="sourcePoint"/>
+                        <mxPoint x="158" y="79.73000000000002" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="End" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Times New Roman;strokeColor=#000000;rounded=0;sketch=0;spacing=2;labelBorderColor=none;labelBackgroundColor=none;fontStyle=1;strokeWidth=0.5;shadow=1;" parent="6" vertex="1">
+                    <mxGeometry x="638" y="50" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Historical transactional dataset of top 10,000 whales" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;sketch=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;shadow=1;" vertex="1" parent="6">
+                    <mxGeometry x="448" y="50" width="153" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6" source="12" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="428" y="90" as="sourcePoint"/>
+                        <mxPoint x="460" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

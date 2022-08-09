@@ -1,0 +1,51 @@
+<mxfile host="65bd71144e">
+    <diagram id="Xu1yubuoAkbYeHxLBEAP" name="Page-1">
+        <mxGraphModel dx="1368" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="EtherScan" style="swimlane;horizontal=0;fillColor=#d0cee2;strokeColor=#000000;startSize=30;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;sketch=0;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="112" y="140" width="888" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="edgeStyle=none;html=1;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="2" source="4" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Connect with crawler to etherscan.io website" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="2" vertex="1">
+                    <mxGeometry x="150" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="2" source="6" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Get Whale's transactions (Top 10,000 addresses)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="2" vertex="1">
+                    <mxGeometry x="320" y="40" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="2" source="8" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;fontStyle=1;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="2" vertex="1">
+                    <mxGeometry x="50" y="50" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Filter by addresses without name tags" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="2" vertex="1">
+                    <mxGeometry x="490" y="25" width="140" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="2" source="10" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Dataset with addresses without name tags" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="2" vertex="1">
+                    <mxGeometry x="661" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" parent="2" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="628" y="80" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="End" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Times New Roman;strokeColor=#000000;rounded=0;sketch=0;spacing=2;labelBorderColor=none;labelBackgroundColor=none;fontStyle=1;strokeWidth=0.5;shadow=1;" parent="2" vertex="1">
+                    <mxGeometry x="818" y="50" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;h1 style=&quot;font-size: 23px&quot;&gt;Flow Diagram Crawler Etherscan&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;fontSize=23;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="241" y="80" width="630" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
