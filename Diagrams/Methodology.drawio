@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="tXnfL6GufPT0Zl-YTs8d" name="Page-1">
+        <mxGraphModel dx="1094" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="78" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="119.52" y="230" width="481.43999999999994" height="212.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px&quot;&gt;Descriptive Analytics&lt;/font&gt;" style="rounded=1;strokeColor=none;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="78">
+                    <mxGeometry x="190.48000000000002" y="127.5" width="100.3" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;font face=&quot;Times New Roman&quot;&gt;Data Collection&lt;/font&gt;" style="html=1;shape=mxgraph.infographic.barCallout;dx=80.34;dy=29.61;fillColor=#ce8f5a;strokeColor=none;align=center;verticalAlign=top;fontColor=#ffffff;fontSize=14;fontStyle=1;shadow=0;spacingTop=5;" vertex="1" parent="78">
+                    <mxGeometry y="50" width="160.48" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;font face=&quot;Times New Roman&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;strokeColor=#ce8f5a;strokeWidth=6;fontSize=16;align=center;fontStyle=1;fillColor=#E6E6E6;" vertex="1" parent="78">
+                    <mxGeometry x="60.480000000000004" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;font face=&quot;Times New Roman&quot;&gt;Data Understanding&lt;/font&gt;" style="html=1;shape=mxgraph.infographic.barCallout;dx=80.34;dy=29.61;fillColor=#6287a2;strokeColor=none;align=center;verticalAlign=top;fontColor=#ffffff;fontSize=14;fontStyle=1;shadow=0;spacingTop=5;" vertex="1" parent="78">
+                    <mxGeometry x="160.48000000000002" y="50" width="160.48" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;font face=&quot;Times New Roman&quot;&gt;2&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;strokeColor=#6287a2;strokeWidth=6;fontSize=16;align=center;fontStyle=1;fillColor=#E6E6E6;" vertex="1" parent="78">
+                    <mxGeometry x="220.96000000000004" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="&lt;font face=&quot;Times New Roman&quot;&gt;Algorithmic Reasoning&lt;/font&gt;" style="html=1;shape=mxgraph.infographic.barCallout;dx=80.34;dy=29.61;fillColor=#5ec0ca;strokeColor=none;align=center;verticalAlign=top;fontColor=#ffffff;fontSize=14;fontStyle=1;shadow=0;spacingTop=5;" vertex="1" parent="78">
+                    <mxGeometry x="320.96" y="50" width="160.48" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;font face=&quot;Times New Roman&quot;&gt;3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;strokeColor=#5ec0ca;strokeWidth=6;fontSize=16;align=center;fontStyle=1;fillColor=#E6E6E6;" vertex="1" parent="78">
+                    <mxGeometry x="381.44" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px&quot;&gt;BigQuery&lt;/font&gt;" style="rounded=1;strokeColor=none;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="78">
+                    <mxGeometry x="30.299999999999997" y="157.5" width="100.18" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px&quot;&gt;Binance&lt;/font&gt;" style="rounded=1;strokeColor=none;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="78">
+                    <mxGeometry x="30.299999999999997" y="187.5" width="100.18" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px&quot;&gt;Etherscan&lt;/font&gt;" style="rounded=1;strokeColor=none;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="78">
+                    <mxGeometry x="30.299999999999997" y="127.5" width="100.36" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px&quot;&gt;Network Analysis&lt;/font&gt;" style="rounded=1;strokeColor=none;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="78">
+                    <mxGeometry x="190.48000000000002" y="157.5" width="100.3" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px&quot;&gt;Scenario Analysis&lt;/font&gt;" style="rounded=1;strokeColor=none;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="78">
+                    <mxGeometry x="351.74" y="127.5" width="98.74" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px&quot;&gt;Algorithm Definition&lt;/font&gt;" style="rounded=1;strokeColor=none;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="78">
+                    <mxGeometry x="351.74000000000007" y="157.5" width="99.4" height="25" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

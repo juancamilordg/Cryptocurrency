@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
-    <diagram id="Xu1yubuoAkbYeHxLBEAP" name="Page-1">
-        <mxGraphModel dx="1368" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <diagram id="Xu1yubuoAkbYeHxLBEAP" name="Etherscan">
+        <mxGraphModel dx="943" dy="561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -42,8 +42,51 @@
                 <mxCell id="12" value="End" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Times New Roman;strokeColor=#000000;rounded=0;sketch=0;spacing=2;labelBorderColor=none;labelBackgroundColor=none;fontStyle=1;strokeWidth=0.5;shadow=1;" parent="2" vertex="1">
                     <mxGeometry x="818" y="50" width="60" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="&lt;h1 style=&quot;font-size: 23px&quot;&gt;Flow Diagram Crawler Etherscan&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;fontSize=23;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="241" y="80" width="630" height="40" as="geometry"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="a3LoOwcZ5gXRW8TmwX7R" name="BigQuery">
+        <mxGraphModel dx="782" dy="465" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="lP7Dem515wN7-19tmlTB-0"/>
+                <mxCell id="lP7Dem515wN7-19tmlTB-1" parent="lP7Dem515wN7-19tmlTB-0"/>
+                <mxCell id="lP7Dem515wN7-19tmlTB-2" value="Google Cloud- BigQuery" style="swimlane;horizontal=0;fillColor=#bac8d3;strokeColor=#000000;startSize=30;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;sketch=0;shadow=1;" vertex="1" parent="lP7Dem515wN7-19tmlTB-1">
+                    <mxGeometry x="112" y="340" width="748" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="lP7Dem515wN7-19tmlTB-3" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lP7Dem515wN7-19tmlTB-2" source="lP7Dem515wN7-19tmlTB-4" target="lP7Dem515wN7-19tmlTB-10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="448" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lP7Dem515wN7-19tmlTB-4" value="Get transactional information of selected addresses" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" vertex="1" parent="lP7Dem515wN7-19tmlTB-2">
+                    <mxGeometry x="298" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="lP7Dem515wN7-19tmlTB-5" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" edge="1" parent="lP7Dem515wN7-19tmlTB-2" source="lP7Dem515wN7-19tmlTB-6" target="lP7Dem515wN7-19tmlTB-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="lP7Dem515wN7-19tmlTB-6" value="Dataset with addresses without name tags" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" vertex="1" parent="lP7Dem515wN7-19tmlTB-2">
+                    <mxGeometry x="148" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="lP7Dem515wN7-19tmlTB-7" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;fontStyle=1;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" vertex="1" parent="lP7Dem515wN7-19tmlTB-2">
+                    <mxGeometry x="58" y="50" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="lP7Dem515wN7-19tmlTB-8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;sketch=0;shadow=1;" edge="1" parent="lP7Dem515wN7-19tmlTB-2" target="lP7Dem515wN7-19tmlTB-6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="118" y="79.73000000000002" as="sourcePoint"/>
+                        <mxPoint x="158" y="79.73000000000002" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lP7Dem515wN7-19tmlTB-9" value="End" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Times New Roman;strokeColor=#000000;rounded=0;sketch=0;spacing=2;labelBorderColor=none;labelBackgroundColor=none;fontStyle=1;strokeWidth=0.5;shadow=1;" vertex="1" parent="lP7Dem515wN7-19tmlTB-2">
+                    <mxGeometry x="638" y="50" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="lP7Dem515wN7-19tmlTB-10" value="Historical transactional dataset of top 10,000 whales" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;sketch=0;fontSize=11;fontFamily=Times New Roman;strokeWidth=0.5;strokeColor=#000000;shadow=1;" vertex="1" parent="lP7Dem515wN7-19tmlTB-2">
+                    <mxGeometry x="448" y="50" width="165" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="lP7Dem515wN7-19tmlTB-11" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lP7Dem515wN7-19tmlTB-2" source="lP7Dem515wN7-19tmlTB-10" target="lP7Dem515wN7-19tmlTB-9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="428" y="90" as="sourcePoint"/>
+                        <mxPoint x="460" y="90" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
